@@ -13,6 +13,12 @@ img {
 
 }
 
+p {
+    color: aliceblue;
+    font-size: 200%;
+}
+
+
 body {
     display: flex;
 }
