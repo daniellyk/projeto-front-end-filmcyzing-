@@ -1,0 +1,24 @@
+body {
+    background-color: #1D0303;
+}
+
+li {
+    color: aliceblue;
+    font-size: 150%;
+}
+
+p {
+    color: aliceblue;
+    font-size: 150%;
+
+}
+
+img {
+    width: 450px;
+    height: 100%;
+
+}
+
+body {
+    display: flex;
+}
