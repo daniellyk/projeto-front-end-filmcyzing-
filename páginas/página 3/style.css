@@ -1,0 +1,21 @@
+body {
+    background-color: #1D0303;
+}
+
+li {
+    color: aliceblue;
+    font-size: 200%;
+}
+
+img {
+    width: 450px;
+    height: 500%;
+
+}
+
+body {
+    display: flex;
+}
+p{
+    color: aliceblue;
+}
