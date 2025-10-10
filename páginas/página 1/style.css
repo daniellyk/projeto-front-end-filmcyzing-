@@ -1,0 +1,33 @@
+body {
+    background-color: #1D0303;
+}
+
+h1 {
+    color: white
+}
+
+h3 {
+    color: white
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+img {
+    height: 400px;
+    width: 300px;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 200%;
+    text-align: center;
+}

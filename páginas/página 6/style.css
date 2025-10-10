@@ -1,12 +1,54 @@
-body{
+body {
  background-color: rgb(49, 0, 0);
- 
 }
 img {
     height: 700px;
-    width: 500pxS;
+    width: 500px;
 }
-img {
-    border-radius: 40px;
-  }
-  
+h1 {
+    text-align: center;
+    color: rgb(91, 29, 29);
+    font: size 40px;
+ }
+ h2 {
+    color: rgb(159, 154, 154);
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    color: rgb(159, 154, 154);
+    font-size: 20px;
+    text-align: center;
+}
+h4 {
+    color: rgb(159, 154, 154);
+    font-size: 20px;
+    text-align: center;
+}
+ 
+h5 {
+    color: rgb(159, 154, 154);
+    font-size: 20px;
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    color: rgb(91, 29, 29);
+    font-size: 40px;
+ }
+ h6 {
+    color: rgb(159, 154, 154);
+    font-size: 20px;
+    text-align: center;
+ }
+
+
+    
+img, p {
+    display: inline-block;
+}
+img, p {
+    float: left;
+}
+
+
