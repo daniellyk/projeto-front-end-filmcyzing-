@@ -1,24 +1,80 @@
 body {
-    background-color: #1D0303;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; 
+    color: #f0f0f0; 
+}
+.navbar {
+    background-color: #333; 
+    padding: 15px 30px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-li {
-    color: aliceblue;
-    font-size: 150%;
+.logo {
+    color: #e50914; 
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
-p {
-    color: aliceblue;
-    font-size: 150%;
-
+.nav-links {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
 }
 
-img {
-    width: 450px;
-    height: 100%;
-
+.nav-links li {
+    margin-left: 20px;
 }
 
-body {
+.nav-links a {
+    color: #f0f0f0; 
+    text-decoration: none; 
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e50914; 
+}
+.container-conteudo {
     display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.poster-filme {
+    width: 300px; 
+    height: auto;
+    margin-right: 40px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.detalhes-filme {
+    flex-grow: 1; 
+}
+h1 {
+    color: #e50914;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+    font-family: fantasy;
+}
+
+.descricao {
+    font-size: 1.1em;
+    line-height: 1.6;
+    font-weight: normal;
+}
+ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 10px;
 }
