@@ -4,47 +4,29 @@ body {
 img {
     height: 700px;
     width: 500px;
+    border-radius: 40px;
 }
 h1 {
     text-align: center;
-    color: rgb(91, 29, 29);
+    color: rgb(138, 22, 22);
     font: size 40px;
+    font-family: Copperplate, Papyrus, fantasy;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
  }
  h2 {
-    color: rgb(159, 154, 154);
-    font-size: 20px;
     text-align: center;
-}
-h3 {
-    color: rgb(159, 154, 154);
-    font-size: 20px;
-    text-align: center;
-}
-h4 {
-    color: rgb(159, 154, 154);
-    font-size: 20px;
-    text-align: center;
-}
- 
-h5 {
-    color: rgb(159, 154, 154);
-    font-size: 20px;
-    text-align: center;
-}
-h5 {
-    text-align: center;
-    color: rgb(91, 29, 29);
-    font-size: 40px;
- }
- h6 {
-    color: rgb(159, 154, 154);
-    font-size: 20px;
-    text-align: center;
- }
+    color: rgb(138,22, 22);
+    font: size 40px;
+    font-family: Copperplate,Papyrus,fantasy;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0) 
 
-
-    
-img, p {
+ }
+ dd {
+    color: rgb(159, 154, 154);
+    font-size: 20px;
+    text-align: center;
+}
+ img, p {
     display: inline-block;
 }
 img, p {
