@@ -1,31 +1,88 @@
+/* Estilos Básicos para o Corpo */
 body {
-    background-color: #1D0303;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: #f0f0f0; /* Texto claro */
 }
 
-li {
-    color: aliceblue;
-    font-size: 200%;
+/* ------------------- ESTILOS DA NAVBAR ------------------- */
+
+.navbar {
+    background-color: #333; /* Cor de fundo da barra */
+    padding: 15px 30px;
+    display: flex; /* Permite colocar itens lado a lado */
+    justify-content: space-between; /* Espaça o logo dos links */
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-img {
-    width: 450px;
-    height: 500%;
-
+.logo {
+    color: #e50914; /* Cor de destaque (vermelho de filme) */
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
-body {
+.nav-links {
+    list-style: none; /* Remove os pontos da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Coloca os links lado a lado */
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #f0f0f0; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e50914; /* Mudar a cor ao passar o mouse */
+}
+
+
+/* ------------------- ESTILOS DO CONTEÚDO ------------------- */
+
+/* Organiza o conteúdo (imagem e texto) em colunas */
+.container-conteudo {
     display: flex;
-}
-p{
-    color: aliceblue;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
 }
 
-h2 {
+.poster-filme {
+    width: 300px; 
+    height: auto;
+    margin-right: 40px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
 
-    color: aliceblue;
+.detalhes-filme {
+    flex-grow: 1; 
 }
 h1 {
+    color: #e50914;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
 
-    color: rgba(255, 0, 0, 0.477);
-    text-align: center;
+.descricao {
+    font-size: 1.1em;
+    line-height: 1.6;
+    font-weight: normal;
+}
+ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 10px;
 }
