@@ -1,43 +1,80 @@
 body {
-    background-color: rgb(56, 0, 0);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; 
+    color: #f0f0f0; 
 }
-img {
-    height: 700px;
-    width: 500px;
+.navbar {
+    background-color: #333; 
+    padding: 15px 30px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
-img, p {
-    display: inline-block;
 
-    float: left;
+.logo {
+    color: #e50914; 
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #f0f0f0; 
+    text-decoration: none; 
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e50914; 
+}
+.container-conteudo {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.poster-filme {
+    width: 300px; 
+    height: auto;
+    margin-right: 40px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.detalhes-filme {
+    flex-grow: 1; 
 }
 h1 {
-    font-size: 40px;
-    text-align: center;
-    color:rgb(184, 35, 35);
-    font-family: Copperplate, Papyrus, fantasia;
-    text-decoration-line: overline;
-    text-decoration-color: rgb(175, 25, 40);
-  }
-h2 {
-    color: rgb(99, 15, 2);
-    text-align: center;
-    font-size: 30px ;
-    font-family: Copperplate, Papyrus, fantasy;
+    color: #e50914;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+    font-family: fantasy;
 }
-h3 {
-    text-align: center;
-    font-size: 20px;
-    color: rgb(255, 227, 215);
+
+.descricao {
+    font-size: 1.1em;
+    line-height: 1.6;
+    font-weight: normal;
 }
-h4 {
-    color: rgb(179, 75, 59);
-    text-align: center;
-    font-size: 30px ;
-    font-family: Copperplate, Papyrus, fantasy ;
+ul {
+    list-style-type: none; 
+    padding-left: 0;
 }
-dd {
-    text-align: center;
-    color: rgb(255, 227, 215);
-    font-size: 20px;
-    flex-direction: column;
+ul li {
+    margin-bottom: 10px;
 }
