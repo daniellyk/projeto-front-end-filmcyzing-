@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Detalhes do Filme</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <img src="../imagens/until dawn.webp" alt="">
-    <h2></h2>
-
-    <ul>
-        <h1>SINOPSE</h1>
-        <h2>Explorando um centro de visitantes abandonado, Clover e seus amigos encontram um assassino mascarado que os
-            mata um por um. No entanto, quando eles misteriosamente acordam no início da mesma noite, são forçados a
-            reviver o terror repetidamente.</h2>
-
-        <li>Gênero:terror. </li>
-
-        <li> Direção: David F. Sandberg.</li>
-
-        <li> Produção: Asad Qizilbash, Carter Swan, David F. Sandberg, Lotta Losten, Roy Lee, Gary Dauberman, Mia Maniscalco. </li>
-
-        <li> Distribuição: Sony Pictures Releasing. </li>
-
-        <li> Lançamento: 25 de abril de 2025. </li>
-
-        <li>Orçamento: $18.1 milhões. </li>
-
-    </ul>
+    <nav class="navbar">
+        <div class="logo" id="titulo-filme">Carregando...</div>
+        <ul class="nav-links">
+            <li><a href="../página 1/index.html">Início</a></li>
+            <li><a href="#" id="link-trailer">Trailer</a></li>
+            <li><a href="#" id="link-elenco">Elenco</a></li>
+            <li><a href="#" id="link-critica">Crítica</a></li>
+            <li><a href="#" id="link-info">Mais Informações</a></li>
+            <li><a href="../cav. sem cabeça/index.html">História</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container-conteudo">
+        <img src="" alt="Pôster do Filme" class="poster-filme" id="poster-filme">
+        
+        <div class="detalhes-filme">
+            <h1 id="sinopse">SINOPSE</h1>
+            <h2 class="descricao" id="descricao-filme">Carregando...</h2>
+            
+            <div id="detalhes">
+                <h1>DETALHES ADICIONAIS</h1>
+                <ul id="lista-detalhes">
+                    <!-- Detalhes serão preenchidos via JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
-
 </html>

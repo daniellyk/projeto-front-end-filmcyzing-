@@ -61,7 +61,6 @@ body {
 .detalhes-filme {
     flex-grow: 1; 
 }
-
 h1 {
     color: #e50914;
     border-bottom: 2px solid #555;
@@ -73,27 +72,11 @@ h1 {
     line-height: 1.6;
     font-weight: normal;
 }
-
 ul {
     list-style-type: none; 
     padding-left: 0;
 }
-
 ul li {
     margin-bottom: 10px;
 }
 
-.loading {
-    text-align: center;
-    padding: 20px;
-    color: #e50914;
-}
-
-.error {
-    text-align: center;
-    padding: 20px;
-    color: #e50914;
-    background-color: rgba(229, 9, 20, 0.1);
-    border-radius: 5px;
-    margin: 20px;
-}
