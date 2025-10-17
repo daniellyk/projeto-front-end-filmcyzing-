@@ -16,3 +16,16 @@ img {
 body {
     display: flex;
 }
+p{
+    color: aliceblue;
+}
+
+h2 {
+
+    color: aliceblue;
+}
+h1 {
+
+    color: rgba(255, 0, 0, 0.477);
+    text-align: center;
+}
