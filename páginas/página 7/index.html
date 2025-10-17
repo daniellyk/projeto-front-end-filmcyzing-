@@ -1,30 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Lenda do Cavaleiro Sem Cabeça</title>
+    <title>Detalhes do Filme</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <img src="../imagens/20140701.jpg" alt="A Lenda do Cavaleiro Sem Cabeça">
-    <ul>
-        <li>Gênero: Terror, Fantasia</li>
-        <li>Direção: Tim Burton</li>
-        <li>Produção: Scott Rudin, Adam Schroeder</li>
-        <li>Roteiro: Andrew Kevin Walker</li>
-        <li>Baseado em: A lenda de Sleepy Hollow, de Washington Irving</li>
-        <li>Distribuição: Paramount Pictures</li>
-        <li>Lançamento: 19 de novembro de 1999</li>
-        <li>Receita: $207.1 milhões</li>
-
-        <p>Ichabod Crane é enviado ao vilarejo de Sleepy Hollow, onde um cavaleiro sem cabeça está deixando um rastro de
-            corpos decapitados. Os métodos investigativos de Ichabod são postos à prova, pois um ser sobrenatural pode
-            ser o causador dos crimes.</p>
-    </ul>
-    <div class="linha">filmes</div>
+    <nav class="navbar">
+        <div class="logo" id="titulo-filme">Carregando...</div>
+        <ul class="nav-links">
+            <li><a href="../página 1/index.html">Início</a></li>
+            <li><a href="#" id="link-trailer">Trailer</a></li>
+            <li><a href="#" id="link-elenco">Elenco</a></li>
+            <li><a href="#" id="link-critica">Crítica</a></li>
+            <li><a href="#" id="link-info">Mais Informações</a></li>
+            <li><a href="../cav. sem cabeça/index.html">História</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container-conteudo">
+        <img src="" alt="Pôster do Filme" class="poster-filme" id="poster-filme">
+        
+        <div class="detalhes-filme">
+            <h1 id="sinopse">SINOPSE</h1>
+            <h2 class="descricao" id="descricao-filme">Carregando...</h2>
+            
+            <div id="detalhes">
+                <h1>DETALHES ADICIONAIS</h1>
+                <ul id="lista-detalhes">
+                    <!-- Detalhes serão preenchidos via JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
-
 </html>

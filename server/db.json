@@ -1,0 +1,44 @@
+{
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "A Lenda do Cavalheiro sem Cabeça",
+      "poster": "../imagens/20140701.jpg",
+      "sinopse": "Ichabod Crane é enviado ao vilarejo de Sleepy Hollow, onde um cavaleiro sem cabeça está deixando um rastro de corpos decapitados. Os métodos investigativos de Ichabod são postos à prova, pois um ser sobrenatural pode ser o causador dos crimes.",
+      "links": {
+        "trailer": "https://youtu.be/WMmgcVnk8SM?si=bWvGwXvmZm4xZoX7",
+        "elenco": "https://www.adorocinema.com/filmes/filme-22345/creditos/",
+        "critica": "https://www.planocritico.com/critica-a-lenda-do-cavaleiro-sem-cabeca/",
+        "informacoes": "https://pt.wikipedia.org/wiki/A_Lenda_do_Cavaleiro_sem_Cabe%C3%A7as"
+      },
+      "detalhes": [
+        "Gênero: Fantasia e terror gótico;",
+        "Direção: Tim Burton;",
+        "Produção: Scott Rudin e Adam Schroeder;",
+        "Distribuição: Paramount Pictures;",
+        "Lançamento: 17 de novembro de 1999;",
+        "Orçamento: Entre 70 e 100 milhões de dólares."
+      ]
+    },
+    {
+        "id": 2,
+        "titulo": "Until Dawn",
+        "poster": "../imagens/until dawn.webp",
+        "sinopse": "Explorando um centro de visitantes abandonado, Clover e seus amigos encontram um assassino mascarado que os mata um por um. No entanto, quando eles misteriosamente acordam no início da mesma noite, são forçados a reviver o terror repetidamente.",
+        "links": {
+          "trailer": "#",
+          "elenco": "#",
+          "critica": "#",
+          "informacoes": "#"
+        },
+        "detalhes": [
+          "Gênero: Terror",
+          "Direção: David F. Sandberg",
+          "Produção: Asad Qizilbash, Carter Swan, David F. Sandberg, Lotta Losten, Roy Lee, Gary Dauberman, Mia Maniscalco",
+          "Distribuição: Sony Pictures Releasing",
+          "Lançamento: 25 de abril de 2025",
+          "Orçamento: $18.1 milhões"
+        ]
+      }
+  ]
+}
