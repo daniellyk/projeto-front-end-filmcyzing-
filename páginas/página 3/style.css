@@ -7,7 +7,7 @@ body {
     color: #f0f0f0; 
 }
 .navbar {
-    background-color: #333; 
+    background-color: #3333; 
     padding: 15px 30px;
     display: flex; 
     justify-content: space-between;
@@ -64,9 +64,12 @@ h1 {
     color: #e50914;
     border-bottom: 2px solid #555;
     padding-bottom: 5px;
-    font-family: fantasy;
 }
-
+h2 {
+    color: #f0f0f0; 
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
 .descricao {
     font-size: 1.1em;
     line-height: 1.6;
