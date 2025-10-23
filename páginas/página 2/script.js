@@ -1,4 +1,4 @@
-// Função para carregar os dados do filme
+
 async function carregarDadosFilme() {
     try {
         // Substitua pela URL do seu JSON Server
