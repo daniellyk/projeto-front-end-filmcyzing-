@@ -1,8 +1,6 @@
-
 async function carregarDadosFilme() {
     try {
-        // Substitua pela URL do seu JSON Server
-        const response = await fetch('http://localhost:3000/filmes/2');
+        const response = await fetch('http://localhost:3000/filmes/4');
         
         if (!response.ok) {
             throw new Error('Erro ao carregar dados do filme');
@@ -21,25 +19,20 @@ async function carregarDadosFilme() {
     }
 }
 
-
 function preencherDadosFilme(filme) {
-    // Título do filme
     document.getElementById('titulo-filme').textContent = filme.titulo;
     
-    // Pôster
     document.getElementById('poster-filme').src = filme.poster;
     document.getElementById('poster-filme').alt = `Pôster do filme ${filme.titulo}`;
     
-    // Sinopse
     document.getElementById('descricao-filme').textContent = filme.sinopse;
     
-    // Links
+    document.getElementById('link-inicio').href = filme.links.inicio;
     document.getElementById('link-trailer').href = filme.links.trailer;
     document.getElementById('link-elenco').href = filme.links.elenco;
     document.getElementById('link-critica').href = filme.links.critica;
     document.getElementById('link-info').href = filme.links.informacoes;
     
-    // Detalhes adicionais
     const listaDetalhes = document.getElementById('lista-detalhes');
     listaDetalhes.innerHTML = '';
     
@@ -50,5 +43,4 @@ function preencherDadosFilme(filme) {
     });
 }
 
-// Inicializar quando a página carregar
 document.addEventListener('DOMContentLoaded', carregarDadosFilme);

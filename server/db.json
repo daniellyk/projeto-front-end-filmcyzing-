@@ -6,39 +6,84 @@
       "poster": "../imagens/20140701.jpg",
       "sinopse": "Ichabod Crane é enviado ao vilarejo de Sleepy Hollow, onde um cavaleiro sem cabeça está deixando um rastro de corpos decapitados. Os métodos investigativos de Ichabod são postos à prova, pois um ser sobrenatural pode ser o causador dos crimes.",
       "links": {
-        "trailer": "https://youtu.be/WMmgcVnk8SM?si=bWvGwXvmZm4xZoX7",
+        "inicio": "../página 1/index.html",
+        "trailer": "https://www.youtube.com/watch?v=WMmgcVnk8SM",
         "elenco": "https://www.adorocinema.com/filmes/filme-22345/creditos/",
         "critica": "https://www.planocritico.com/critica-a-lenda-do-cavaleiro-sem-cabeca/",
-        "informacoes": "https://pt.wikipedia.org/wiki/A_Lenda_do_Cavaleiro_sem_Cabe%C3%A7as"
+        "informacoes": "https://pt.wikipedia.org/wiki/A_Lenda_do_Cavaleiro_sem_Cabe%C3%A7as",
+        "historia": "../cav. sem cabeça/index.html"
       },
       "detalhes": [
-        "Gênero: Fantasia e terror gótico;",
-        "Direção: Tim Burton;",
-        "Produção: Scott Rudin e Adam Schroeder;",
-        "Distribuição: Paramount Pictures;",
-        "Lançamento: 17 de novembro de 1999;",
-        "Orçamento: Entre 70 e 100 milhões de dólares."
+        "Gênero: Fantasia e terror gótico",
+        "Direção: Tim Burton",
+        "Produção: Scott Rudin e Adam Schroeder",
+        "Distribuição: Paramount Pictures",
+        "Lançamento: 17 de novembro de 1999",
+        "Orçamento: Entre 70 e 100 milhões de dólares"
       ]
     },
     {
-        "id": 2,
-        "titulo": "Until Dawn",
-        "poster": "../imagens/until dawn.webp",
-        "sinopse": "Explorando um centro de visitantes abandonado, Clover e seus amigos encontram um assassino mascarado que os mata um por um. No entanto, quando eles misteriosamente acordam no início da mesma noite, são forçados a reviver o terror repetidamente.",
-        "links": {
-          "trailer": "#",
-          "elenco": "#",
-          "critica": "#",
-          "informacoes": "#"
-        },
-        "detalhes": [
-          "Gênero: Terror",
-          "Direção: David F. Sandberg",
-          "Produção: Asad Qizilbash, Carter Swan, David F. Sandberg, Lotta Losten, Roy Lee, Gary Dauberman, Mia Maniscalco",
-          "Distribuição: Sony Pictures Releasing",
-          "Lançamento: 25 de abril de 2025",
-          "Orçamento: $18.1 milhões"
-        ]
-      }
+      "id": 2,
+      "titulo": "Until Dawn",
+      "poster": "../imagens/until dawn.webp",
+      "sinopse": "Explorando um centro de visitantes abandonado, Clover e seus amigos encontram um assassino mascarado que os mata um por um. No entanto, quando eles misteriosamente acordam no início da mesma noite, são forçados a reviver o terror repetidamente.",
+      "links": {
+        "inicio": "../página 1/index.html",
+        "trailer": "#",
+        "elenco": "#",
+        "critica": "#",
+        "informacoes": "#"
+      },
+      "detalhes": [
+        "Gênero: Terror",
+        "Direção: David F. Sandberg",
+        "Produção: Asad Qizilbash, Carter Swan, David F. Sandberg, Lotta Losten, Roy Lee, Gary Dauberman, Mia Maniscalco",
+        "Distribuição: Sony Pictures Releasing",
+        "Lançamento: 25 de abril de 2025",
+        "Orçamento: $18.1 milhões"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Terrifier",
+      "poster": "../imagens/terrifier.jpg",
+      "sinopse": "Enquanto cuida de duas crianças no halloween, uma babá encontra uma antiga fita VHS no saco de doces. O filme apresenta três contos de terror, todos ligados entre si por um palhaço assassino. Ao longo da noite, coisas estranhas começam a acontecer na casa e a presença do palhaço parece cada vez mais real.",
+      "links": {
+        "inicio": "../página 1/index.html",
+        "trailer": "https://www.youtube.com/watch?v=fN5j1MtGO2Q",
+        "elenco": "https://www.adorocinema.com/filmes/filme-251681/creditos/",
+        "critica": "#",
+        "informacoes": "https://pt.wikipedia.org/wiki/Terrifier"
+      },
+      "detalhes": [
+        "Gênero: Terror",
+        "Direção: Damien Leone",
+        "Produção: Damien Leone, Phil Falcone, George Steuber",
+        "Distribuição: Diamond Films",
+        "Lançamento: 15 de março de 2018 (EUA)",
+        "Orçamento: 2 milhões USD"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "O Massacre da Serra Elétrica",
+      "poster": "../imagens/21044499_20130926200315787 (1).webp",
+      "sinopse": "A jovem Sally fica sabendo que o túmulo de seu avô pode ter sido vandalizado e decide cair na estrada com o irmão e um grupo de amigos para visitar o local e investigar. Depois de um desvio para a antiga casa de fazenda de seus parentes, os jovens descobrem uma família de canibais morando na assustadora residência ao lado. O mais insano membro do clã é Leatherface, que usa uma máscara confeccionada com pele humana e estraçalha suas vítimas usando uma serra elétrica.",
+      "links": {
+        "inicio": "../página 1/index.html",
+        "trailer": "https://www.youtube.com/watch?v=ok7VU_1uL90&pp=ygUkdHJhaWxlciBtYXNzYWNyZSBkYSBzZXJyYSBlbGV0cmljYSAx0gcJCfwJAYcqIYzv",
+        "elenco": "https://www.adorocinema.com/filmes/filme-46524/creditos/",
+        "critica": "https://www.planocritico.com/critica-o-massacre-da-serra-eletrica/",
+        "informacoes": "https://pt.wikipedia.org/wiki/The_Texas_Chain_Saw_Massacre"
+      },
+      "detalhes": [
+        "Gênero: Terror",
+        "Direção: Tobe Hooper",
+        "Produção: Kim Henkel, Tobe Hooper, Jay Parsley, Richard Saenz",
+        "Distribuição: Netflix",
+        "Lançamento: 28 de agosto de 1987",
+        "Orçamento: 140.000 USD"
+      ]
+    }
   ]
 }
