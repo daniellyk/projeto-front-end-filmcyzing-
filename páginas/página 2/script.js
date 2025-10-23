@@ -21,7 +21,7 @@ async function carregarDadosFilme() {
     }
 }
 
-// Função para preencher os dados do filme na página
+
 function preencherDadosFilme(filme) {
     // Título do filme
     document.getElementById('titulo-filme').textContent = filme.titulo;

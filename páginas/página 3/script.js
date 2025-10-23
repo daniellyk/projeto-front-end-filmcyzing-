@@ -1,6 +1,6 @@
 async function carregarDadosFilme() {
     try {
-        const response = await fetch('http://localhost:3000/filmes/1');
+        const response = await fetch('http://localhost:3000/filmes/4');
         
         if (!response.ok) {
             throw new Error('Erro ao carregar dados do filme');
@@ -27,6 +27,7 @@ function preencherDadosFilme(filme) {
     
     document.getElementById('descricao-filme').textContent = filme.sinopse;
     
+    document.getElementById('link-inicio').href = filme.links.inicio;
     document.getElementById('link-trailer').href = filme.links.trailer;
     document.getElementById('link-elenco').href = filme.links.elenco;
     document.getElementById('link-critica').href = filme.links.critica;
