@@ -2,29 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; 
-    color: #f0f0f0; 
+    background-color: #1d0303;
+    color: #f0f0f0;
 }
+
 .navbar {
-    background-color: #333; 
+    background-color: #2f0606;
     padding: 15px 30px;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .logo {
-    color: #e50914; 
+    color: #e50914;
     font-size: 1.5em;
     font-weight: bold;
 }
 
 .nav-links {
-    list-style: none; 
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; 
+    display: flex;
 }
 
 .nav-links li {
@@ -32,15 +33,16 @@ body {
 }
 
 .nav-links a {
-    color: #f0f0f0; 
-    text-decoration: none; 
+    color: #f0f0f0;
+    text-decoration: none;
     padding: 5px 10px;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #e50914; 
+    color: #e50914;
 }
+
 .container-conteudo {
     display: flex;
     max-width: 1200px;
@@ -59,11 +61,11 @@ body {
 .detalhes-filme {
     flex-grow: 1; 
 }
+
 h1 {
     color: #e50914;
     border-bottom: 2px solid #555;
     padding-bottom: 5px;
-    font-family: fantasy;
 }
 
 .descricao {
@@ -71,12 +73,27 @@ h1 {
     line-height: 1.6;
     font-weight: normal;
 }
+
 ul {
     list-style-type: none; 
     padding-left: 0;
 }
+
 ul li {
     margin-bottom: 10px;
 }
 
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #e50914;
+}
 
+.error {
+    text-align: center;
+    padding: 20px;
+    color: #e50914;
+    background-color: rgba(229, 9, 20, 0.1);
+    border-radius: 5px;
+    margin: 20px;
+}
