@@ -1,30 +1,7 @@
-# projeto-front-end-filmcyzing-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Lenda do Cavaleiro Sem Cabeça</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-    <img src="../imagens/20140701.jpg" alt="A Lenda do Cavaleiro Sem Cabeça">
-    <ul>
-        <li>Gênero: Terror, Fantasia</li>
-        <li>Direção: Tim Burton</li>
-        <li>Produção: Scott Rudin, Adam Schroeder</li>
-        <li>Roteiro: Andrew Kevin Walker</li>
-        <li>Baseado em: A lenda de Sleepy Hollow, de Washington Irving</li>
-        <li>Distribuição: Paramount Pictures</li>
-        <li>Lançamento: 19 de novembro de 1999</li>
-        <li>Receita: $207.1 milhões</li>
+## 📋 Documentação
 
-        <p>Ichabod Crane é enviado ao vilarejo de Sleepy Hollow, onde um cavaleiro sem cabeça está deixando um rastro de
-            corpos decapitados. Os métodos investigativos de Ichabod são postos à prova, pois um ser sobrenatural pode
-            ser o causador dos crimes.</p>
-    </ul>
-    <div class="linha">filmes</div>
-</body>
+A documentação completa do projeto está disponível no link abaixo:
 
-</html>
+[🔗 Acessar Documentação Online](https://docs.google.com/document/d/1yppRvwv81s4bXZ0VBieLI1FBZOdPoRK2iEKpMmr6_AI/edit?usp=sharing)
