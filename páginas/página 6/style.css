@@ -51,15 +51,15 @@ body {
 }
 
 .poster-filme {
-    width: 300px; 
+    width: 300px;
     height: auto;
     margin-right: 40px;
-    border-radius: 8px; 
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .detalhes-filme {
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 h1 {
@@ -75,7 +75,7 @@ h1 {
 }
 
 ul {
-    list-style-type: none; 
+    list-style-type: none;
     padding-left: 0;
 }
 

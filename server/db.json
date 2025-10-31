@@ -23,27 +23,6 @@
       ]
     },
     {
-      "id": 2,
-      "titulo": "Until Dawn",
-      "poster": "../imagens/until dawn.webp",
-      "sinopse": "Explorando um centro de visitantes abandonado, Clover e seus amigos encontram um assassino mascarado que os mata um por um. No entanto, quando eles misteriosamente acordam no início da mesma noite, são forçados a reviver o terror repetidamente.",
-      "links": {
-        "inicio": "../página 1/index.html",
-        "trailer": "#",
-        "elenco": "#",
-        "critica": "#",
-        "informacoes": "#"
-      },
-      "detalhes": [
-        "Gênero: Terror",
-        "Direção: David F. Sandberg",
-        "Produção: Asad Qizilbash, Carter Swan, David F. Sandberg, Lotta Losten, Roy Lee, Gary Dauberman, Mia Maniscalco",
-        "Distribuição: Sony Pictures Releasing",
-        "Lançamento: 25 de abril de 2025",
-        "Orçamento: $18.1 milhões"
-      ]
-    },
-    {
       "id": 3,
       "titulo": "Terrifier",
       "poster": "../imagens/terrifier.jpg",
@@ -85,5 +64,62 @@
         "Orçamento: 140.000 USD"
       ]
     }
+  ],
+  "filme": {
+    "id": 1,
+    "titulo": "JOGOS MORTAIS",
+    "sinopse": "Dois homens, Dr. Lawrence Gordon e Adam, acordam acorrentados em um banheiro imundo, sem saber como foram parar ali. Entre eles, há um cadáver e um gravador. Eles descobrem que estão presos em um jogo mortal criado pelo sádico Jigsaw, um serial killer que não mata diretamente, mas coloca suas vítimas em situações extremas para que \"valorizem a vida\". Enquanto tentam escapar, precisam seguir regras cruéis. Gordon é forçado a matar Adam antes de um determinado prazo. Ao longo do filme, flashbacks revelam mais sobre o assassino, suas motivações e as vítimas anteriores.",
+    "genero": "Terror",
+    "direcao": "James Wan",
+    "duracao": "1h 43min",
+    "lancamento": "29 de outubro de 2004",
+    "orcamento": "1,2 milhão de dólares",
+    "distribuicao": "Paris Filmes",
+    "imagem": "jigsaw.jpeg"
+  },
+  "menu": [
+    {
+      "id": 1,
+      "texto": "Início",
+      "url": "../página 1/index.html"
+    },
+    {
+      "id": 2,
+      "texto": "Elenco",
+      "url": "https://www.google.com/search?sca_esv=48ce434805bc8b69&rlz=1C1GCEA_enBR1120BR1120&q=elenco+de+jogos+mortais+1&si=AMgyJEtgUITTKH8hSnLtRZJOzKaYdVJA8-Pykj7timoemaqAfB4tjo0wojwrSxCDnzRQR-HFT04auL2VPCyPjNeKKs9k3ZP8NTzOJgedPHHdKYuKqLa62FYbYvKXn5twnpMwL8y_Wg0CiGkDznLs63kn1almESbQWgHoJu0MiAl7cZxNBMYHBM4%3D&sa=X&ved=2ahUKEwjCrYeltKuQAxVpGrkGHUrDLRYQyNoBKAB6BAgWEAA&ictx=1&biw=1536&bih=730&dpr=1.25"
+    },
+    {
+      "id": 3,
+      "texto": "Detalhes",
+      "url": "https://pt.wikipedia.org/wiki/Saw"
+    },
+    {
+      "id": 4,
+      "texto": "Trailer",
+      "url": "https://www.youtube.com/watch?v=rX2hCa3ae9o"
+    }
+  ],
+
+  "untilDown": [
+      {
+          "id": 2,
+          "titulo": "Until Dawn",
+          "poster": "../imagens/until dawn.webp",
+          "sinopse": "Explorando um centro de visitantes abandonado, Clover e seus amigos encontram um assassino mascarado que os mata um por um. No entanto, quando eles misteriosamente acordam no início da mesma noite, são forçados a reviver o terror repetidamente.",
+          "links": {
+              "trailer": "#",
+              "elenco": "#",
+              "critica": "#",
+              "informacoes": "#"
+          },
+          "detalhes": [
+              "Gênero: Terror",
+              "Direção: David F. Sandberg",
+              "Produção: Asad Qizilbash, Carter Swan, David F. Sandberg, Lotta Losten, Roy Lee, Gary Dauberman, Mia Maniscalco",
+              "Distribuição: Sony Pictures Releasing",
+              "Lançamento: 25 de abril de 2025",
+              "Orçamento: $18.1 milhões"
+          ]
+      }
   ]
 }

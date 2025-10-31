@@ -2,7 +2,7 @@
 async function carregarDadosFilme() {
     try {
         // Substitua pela URL do seu JSON Server
-        const response = await fetch('http://localhost:3000/filmes/2');
+        const response = await fetch('http://localhost:3000/untilDown/2');
         
         if (!response.ok) {
             throw new Error('Erro ao carregar dados do filme');
